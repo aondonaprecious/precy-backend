@@ -1,0 +1,28 @@
+{
+  "name": "barbiie-lashes",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.7.1",
+    "nodemailer": "^6.9.16",
+    "twilio": "^5.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
